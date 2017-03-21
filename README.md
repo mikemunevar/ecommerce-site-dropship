@@ -41,3 +41,33 @@ Update your database.yml file with these details.
 
 If you need to creaate the database, you can use this command:
 mikemunevar:~/workspace (master) $ rake db:create
+
+
+
+Install imagemagick
+sudo apt-get install imagemagick
+
+gem install spree
+
+spree install
+
+from:
+https://github.com/spree/spree
+
+add to gem file
+gem 'spree', '~> 3.1.0'
+gem 'spree_auth_devise', '~> 3.1.0'
+gem 'spree_gateway', '~> 3.1.0'
+
+bundle update
+bundle install
+
+
+
+Use the install generators to set up Spree:
+rails g spree:install --user_class=Spree::User
+rails g spree:auth:install
+rails g spree_gateway:install
+
+default user: spree@example.com
+default PW: s******3

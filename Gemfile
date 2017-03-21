@@ -48,3 +48,12 @@ group :development do
   gem 'spring'
 end
 
+# gem 'spree', '2.3.4'
+# gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-3-stable'
+# gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-3-stable'
+# gem 'spree_fancy', :github => 'spree/spree_fancy', :branch => '2-3-stable'
+
+
+gem 'spree', '~> 3.1.0'
+gem 'spree_auth_devise', '~> 3.1.0'
+gem 'spree_gateway', '~> 3.1.0'
