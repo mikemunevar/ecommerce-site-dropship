@@ -44,7 +44,7 @@ mikemunevar:~/workspace (master) $ rake db:create
 
 
 
-Install imagemagick
+Install imagemagick  https://community.c9.io/t/install-imagemagick/3608
 sudo apt-get install imagemagick
 
 gem install spree
@@ -71,3 +71,8 @@ rails g spree_gateway:install
 
 default user: spree@example.com
 default PW: s******3
+
+
+Start the Posgres DB  https://community.c9.io/t/setting-up-postgresql/1573
+sudo service postgresql start
+
